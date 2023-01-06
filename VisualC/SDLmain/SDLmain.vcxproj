@@ -106,6 +106,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <DisableSpecificWarnings>5105</DisableSpecificWarnings>
       <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -129,6 +131,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <DisableSpecificWarnings>5105</DisableSpecificWarnings>
       <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -153,6 +157,7 @@
       <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <StringPooling>false</StringPooling>
+      <SDLCheck>true</SDLCheck>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -176,6 +181,7 @@
       <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <StringPooling>false</StringPooling>
+      <SDLCheck>true</SDLCheck>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
